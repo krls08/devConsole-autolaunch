@@ -20,7 +20,7 @@ class clickEv{
         document.body.dispatchEvent(this.kbEv);
     }
     _closeAnon = () =>{
-        const close = document.querySelector('#tool-1820-toolEl');
+        const close = document.querySelector('#tool-1820-toolEl'); // this id may change Actual is: #tool-1507-toolEl
         close.click();
     }
     // sleep method -> Run in Async!
